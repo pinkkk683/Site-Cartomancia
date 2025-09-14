@@ -1,0 +1,122 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(180deg, #000 0%, #1a001f 100%);
+  color: #eee;
+  text-align: center;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Fundo estrelado */
+#stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Cabeçalho */
+header {
+  padding: 3rem 1rem;
+}
+
+header .logo {
+  max-width: 180px;
+  filter: drop-shadow(0 0 8px #b37cff);
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: #b37cff;
+  font-size: 2.5rem;
+  margin: 1rem 0 0.5rem;
+  text-shadow: 0 0 15px #8a3eff;
+}
+
+.slogan {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 0 10px #b37cff;
+}
+
+/* Seções */
+section {
+  padding: 3rem 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(179, 124, 255, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 15px rgba(179, 124, 255, 0.3);
+}
+
+h2 {
+  font-family: 'Cinzel Decorative', serif;
+  color: #d3a4ff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 12px #8a3eff;
+}
+
+/* Serviços */
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+  background: rgba(179, 124, 255, 0.1);
+  border: 1px solid #b37cff;
+  color: #eee;
+  font-size: 1.2rem;
+  text-shadow: 0 0 5px #000;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.services li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #b37cff;
+}
+
+/* Botão WhatsApp */
+.whatsapp-btn {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #25d366;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 50px;
+  box-shadow: 0 0 15px #25d366;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.whatsapp-btn:hover {
+  background: #1da851;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #1da851;
+}
+
+/* Rodapé */
+footer {
+  padding: 2rem 1rem;
+  border-top: 1px solid #333;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 3rem;
+}
